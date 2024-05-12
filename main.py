@@ -1,10 +1,10 @@
-from fastapi import Fastapi
+from fastapi import FastAPI
 
-app : Fastapi = Fastapi()
+app:FastAPI = FastAPI()
 
 
 @app.get('/')
 def get_data():
-    return 'hello'
+        return 'hello'
 
 
